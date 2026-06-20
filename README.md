@@ -118,6 +118,7 @@ python-automation-essentials/
 ├── Snake-gun-water/
 ├── To-do-list-type-code/
 ├── Zipfile-shows_data/
+├── Keylogger/
 └── voice-by-pc/
 ```
 
@@ -205,10 +206,16 @@ Here's a brief overview of each project available in this repository:
 -   **Description**: A simple command-line based to-do list application for managing tasks, adding new items, marking them complete, and viewing the list.
 -   **How to Run**: Navigate to the directory and execute the main Python script (e.g., `python todo_app.py`).
 
+
 ### **Zipfile-shows_data**
 -   **Description**: A utility script to extract and display the contents (metadata or file list) of a given zip archive without full extraction.
 -   **How to Run**: Navigate to the directory and execute the main Python script (e.g., `python zip_viewer.py`).
 
+### **Keylogger**
+-   **Description**: A security-focused script that captures and logs keystrokes with timestamped session management. It intelligently formats special keys (Space, Enter, Ctrl, Shift, Alt, Win) for readability, ignores single quotes, and automatically generates a new log file for each session to keep data organized.
+-   **How to Run**: Navigate to the Keylogger/ directory and execute the main Python script (e.g., `python keylogger.py`).
+-   **Dependencies**: Requires pynput. Install it using `pip install pynput or pip install -r requirements.txt`.
+  
 ### **voice-by-pc**
 -   **Description**: A simple script that demonstrates text-to-speech functionality, allowing the computer to speak given text.
 -   **How to Run**: Navigate to the directory and execute the main Python script (e.g., `python text_to_speech.py`).
